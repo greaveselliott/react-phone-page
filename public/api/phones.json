@@ -1,0 +1,266 @@
+[
+    {
+        "groupName": "Apple iPhone 8",
+        "rating": "4.2",
+        "deviceSummary": [
+            {
+                "deviceId": "094377",
+                "displayName": "Apple iPhone 8 64GB Gold",
+                "displayDescription": "All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip. Intelligence never looked better.",
+                "colourName": "Gold",
+                "colourHex": "#f8e7dc",
+                "memory": "64GB",
+                "leadPlanId": "110368",
+                "merchandisingMedia": [
+                    {
+                        "id": "PR_IMAGE_URLS_THUMBS_FRONT",
+                        "value": "/images/desktop/Apple_iPhone_8_Gold-full-product-front.png"
+                    }
+                ],
+                "priceInfo": {
+                    "bundlePrice": {
+                        "bundleId": "110368",
+                        "monthlyPrice": {
+                            "gross": "43.20",
+                            "net": "36.00",
+                            "vat": "7.20"
+                        },
+                        "monthlyDiscountPrice": {
+                            "gross": null,
+                            "net": null,
+                            "vat": null
+                        }
+                    },
+                    "hardwarePrice": {
+                        "hardwareId": "094377",
+                        "oneOffPrice": {
+                            "gross": "149",
+                            "net": "124.17",
+                            "vat": "24.83"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": null,
+                            "net": null,
+                            "vat": null
+                        }
+                    }
+                }
+            },
+            {
+                "deviceId": "094351",
+                "displayName": "Apple iPhone 8 64GB Silver",
+                "displayDescription": "All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip. Intelligence never looked better.",
+                "colourName": "Silver",
+                "colourHex": "#e1e2e3",
+                "memory": "64GB",
+                "leadPlanId": "110368",
+                "merchandisingMedia": [
+                    {
+                        "id": "PR_IMAGE_URLS_THUMBS_FRONT",
+                        "value": "/images/desktop/Apple_iPhone_8_Silver_WS2-full-product-front.png"
+                    }
+                ],
+                "priceInfo": {
+                    "bundlePrice": {
+                        "bundleId": "110368",
+                        "monthlyPrice": {
+                            "gross": "43.20",
+                            "net": "36.00",
+                            "vat": "7.20"
+                        },
+                        "monthlyDiscountPrice": {
+                            "gross": null,
+                            "net": null,
+                            "vat": null
+                        }
+                    },
+                    "hardwarePrice": {
+                        "hardwareId": "094351",
+                        "oneOffPrice": {
+                            "gross": "149",
+                            "net": "124.17",
+                            "vat": "24.83"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": "129",
+                            "net": "107.50",
+                            "vat": "21.50"
+                        }
+                    }
+                }
+            },
+            {
+                "deviceId": "094364",
+                "displayName": "Apple iPhone 8 64GB Space Grey",
+                "displayDescription": "All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip. Intelligence never looked better.",
+                "colourName": "Space Grey",
+                "colourHex": "#232324",
+                "memory": "64GB",
+                "leadPlanId": "110368",
+                "merchandisingMedia": [
+                    {
+                        "id": "PR_IMAGE_URLS_THUMBS_FRONT",
+                        "value": "/images/desktop/Apple_iPhone_8_Space_Grey_WS2-full-product-front.png"
+                    }
+                ],
+                "priceInfo": {
+                    "bundlePrice": {
+                        "bundleId": "110368",
+                        "monthlyPrice": {
+                            "gross": "43.20",
+                            "net": "36.00",
+                            "vat": "7.20"
+                        },
+                        "monthlyDiscountPrice": {
+                            "gross": null,
+                            "net": null,
+                            "vat": null
+                        }
+                    },
+                    "hardwarePrice": {
+                        "hardwareId": "094364",
+                        "oneOffPrice": {
+                            "gross": "149",
+                            "net": "124.17",
+                            "vat": "24.83"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": "1149",
+                            "net": "957.50",
+                            "vat": "191.50"
+                        }
+                    }
+                }
+            },
+            {
+                "deviceId": "094414",
+                "displayName": "Apple iPhone 8 256GB Gold",
+                "displayDescription": "All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip. Intelligence never looked better.",
+                "colourName": "Gold",
+                "colourHex": "#f8e7dc",
+                "memory": "256GB",
+                "leadPlanId": "110365",
+                "merchandisingMedia": [
+                    {
+                        "id": "PR_IMAGE_URLS_THUMBS_FRONT",
+                        "value": "/images/desktop/Apple_iPhone_8_Gold-full-product-front.png"
+                    }
+                ],
+                "priceInfo": {
+                    "bundlePrice": {
+                        "bundleId": "110365",
+                        "monthlyPrice": {
+                            "gross": "46.80",
+                            "net": "39.00",
+                            "vat": "7.80"
+                        },
+                        "monthlyDiscountPrice": {
+                            "gross": null,
+                            "net": null,
+                            "vat": null
+                        }
+                    },
+                    "hardwarePrice": {
+                        "hardwareId": "094414",
+                        "oneOffPrice": {
+                            "gross": "275",
+                            "net": "229.17",
+                            "vat": "45.83"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": null,
+                            "net": null,
+                            "vat": null
+                        }
+                    }
+                }
+            },
+            {
+                "deviceId": "094390",
+                "displayName": "Apple iPhone 8 256GB Silver",
+                "displayDescription": "All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip. Intelligence never looked better.",
+                "colourName": "Silver",
+                "colourHex": "#e1e2e3",
+                "memory": "256GB",
+                "leadPlanId": "110365",
+                "merchandisingMedia": [
+                    {
+                        "id": "PR_IMAGE_URLS_THUMBS_FRONT",
+                        "value": "/images/desktop/Apple_iPhone_8_Silver_WS2-full-product-front.png"
+                    }
+                ],
+                "priceInfo": {
+                    "bundlePrice": {
+                        "bundleId": "110365",
+                        "monthlyPrice": {
+                            "gross": "46.80",
+                            "net": "39.00",
+                            "vat": "7.80"
+                        },
+                        "monthlyDiscountPrice": {
+                            "gross": null,
+                            "net": null,
+                            "vat": null
+                        }
+                    },
+                    "hardwarePrice": {
+                        "hardwareId": "094390",
+                        "oneOffPrice": {
+                            "gross": "275",
+                            "net": "229.17",
+                            "vat": "45.83"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": null,
+                            "net": null,
+                            "vat": null
+                        }
+                    }
+                }
+            },
+            {
+                "deviceId": "094403",
+                "displayName": "Apple iPhone 8 256GB Space Grey",
+                "displayDescription": "All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip. Intelligence never looked better.",
+                "colourName": "Space Grey",
+                "colourHex": "#232324",
+                "memory": "256GB",
+                "leadPlanId": "110365",
+                "merchandisingMedia": [
+                    {
+                        "id": "PR_IMAGE_URLS_THUMBS_FRONT",
+                        "value": "/images/desktop/Apple_iPhone_8_Space_Grey_WS2-full-product-front.png"
+                    }
+                ],
+                "priceInfo": {
+                    "bundlePrice": {
+                        "bundleId": "110365",
+                        "monthlyPrice": {
+                            "gross": "46.80",
+                            "net": "39.00",
+                            "vat": "7.80"
+                        },
+                        "monthlyDiscountPrice": {
+                            "gross": null,
+                            "net": null,
+                            "vat": null
+                        }
+                    },
+                    "hardwarePrice": {
+                        "hardwareId": "094403",
+                        "oneOffPrice": {
+                            "gross": "275",
+                            "net": "229.17",
+                            "vat": "45.83"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": null,
+                            "net": null,
+                            "vat": null
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]
