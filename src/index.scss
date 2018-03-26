@@ -59,6 +59,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: Vodafone, sans-serif;
+	font-size: 18px;
+	line-height: 1.6em;
 }
 ol, ul {
 	list-style: none;
@@ -74,4 +76,12 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+p {
+	font-weight: 200;
+}
+
+.semantics-only {
+	display: none;
 }

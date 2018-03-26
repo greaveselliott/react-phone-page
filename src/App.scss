@@ -1,0 +1,40 @@
+.product {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    &__column {
+        width: 50%;
+    }
+
+    &__media {
+        width: 100%;
+        text-align: center;
+    }
+
+    &__image {
+        max-width: 250px;
+    }
+
+    &__title {
+        font-size: 40px;
+        font-weight: 300;
+        margin-bottom: 0.6em;
+        line-height: 1.3em;
+    }
+
+    &__description {
+        margin-bottom: 1.2rem;
+        color: #6d6d6d;
+    }
+
+    &__customisation {
+        display: flex;
+        flex-direction: row;
+    }
+}
