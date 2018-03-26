@@ -78,12 +78,32 @@ class App extends Component {
 
   selectDevice() {
     this.setState({
-      currentDevice: _.find(this.state.data.deviceSummary, { colourName: this.state.color, memory: this.state.capacity })
+      currentDevice: _.findIndex(this.state.data.deviceSummary, { colourName: this.state.color, memory: this.state.capacity })
     });
   }
 
   getMonthlyPrice() {
+    const price = _.get(this.state, `data.deviceSummary[${this.state.currentDevice}]priceInfo.bundlePrice.monthlyPrice.gross`,"N/A");
 
+    return `£${price}`;
+  }
+
+  getUpfrontPrice() {
+    const price = _.get(this.state, `data.deviceSummary[${this.state.currentDevice}]priceInfo.hardwarePrice.oneOffPrice.gross`,"N/A");
+
+    return `£${price}`;
+  }
+
+  getProductTitle() {
+    return _.get(this.state, `data.deviceSummary[${this.state.currentDevice}]displayName`);
+  }
+
+  getProductImage() {
+    return _.get(this.state, `data.deviceSummary[${this.state.currentDevice}]merchandisingMedia[0].value`);
+  }
+
+  getProductDescription() {
+    return _.get(this.state, `data.deviceSummary[${this.state.currentDevice}]displayDescription`);
   }
 
   render() {
@@ -91,24 +111,24 @@ class App extends Component {
       <main className="product" itemProp="itemListElement" itemScope itemType="http://schema.org/Product">
           <div className="product__column">
             <figure className="product__media">
-                <img className="product__image" itemProp="image" src={_.get(this.state.currentDevice, "merchandisingMedia[0].value", "")} alt=""/>
+                <img className="product__image" itemProp="image" src={this.getProductImage()} alt=""/>
             </figure>
           </div>
           <div className="product__column">
-            <h1 className="product__title" itemProp="model">{this.state.currentDevice.displayName}</h1>
+            <h1 className="product__title" itemProp="model">{this.getProductTitle()}</h1>
             <Rating rating={this.state.data.rating}/>
-            <p className="product__description" itemProp="description">{this.state.currentDevice.displayDescription}</p>
+            <p className="product__description" itemProp="description">{this.getProductDescription()}</p>
+            
             <form className="product__customisation">
               <h2 className="semantics-only">Product customisation</h2>
-
-              <Radio handler={this.selectCapacity} options={this.state.capacityOptions} name="Capacity" selected={this.state.capacity}/>
               <Radio handler={this.selectColor} options={this.state.colorOptions} name="Color" selected={this.state.color}/>
+              <Radio handler={this.selectCapacity} options={this.state.capacityOptions} name="Capacity" selected={this.state.capacity} innerText/>
             </form>
 
             <section className="product__price">
               <h2 className="semantics-only">Price</h2>
-              <p className="price__breakdown" itemProp="price">from <span className="price__emphasis">X</span> upfront cost</p>
-              <p className="price__breakdown" itemProp="price">when you pay <span className="price__emphasis">£43.10</span> a month</p>
+              <p className="product__price-breakdown" itemProp="price">From <span className="product__price-emphasis">{this.getUpfrontPrice()}</span> upfront cost</p>
+              <p className="product__price-breakdown" itemProp="price">When you pay <span className="product__price-emphasis">{this.getMonthlyPrice()}</span> a month</p>
             </section>
           </div>
       </main>

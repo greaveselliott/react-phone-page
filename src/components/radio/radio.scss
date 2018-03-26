@@ -1,8 +1,10 @@
 .radio {
     width: 500%;
+    margin-bottom: 3rem;
 
     &__title {
         font-weight: 200;
+        margin-bottom: 1rem;
     }
 
     &__value {
@@ -17,6 +19,7 @@
         position: relative;
         border-radius: 10px;
         margin-right: 8px;
+        box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.35);
 
         &:before {
             display: block;
@@ -40,11 +43,11 @@
             width: calc(100% + 2px);
             height: calc(100% + 2px);
             border-radius: inherit;
-            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+15,000000+100&0.1+15,0.2+89,0.2+100 */
             background: -moz-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(255,255,255,0.1) 15%, rgba(33,33,33,0.2) 89%, rgba(0,0,0,0.2) 100%); /* FF3.6-15 */
             background: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%,rgba(255,255,255,0.1) 15%,rgba(33,33,33,0.2) 89%,rgba(0,0,0,0.2) 100%); /* Chrome10-25,Safari5.1-6 */
             background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(255,255,255,0.1) 15%,rgba(33,33,33,0.2) 89%,rgba(0,0,0,0.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#33000000',GradientType=0 ); /* IE6-9 */
+            mix-blend-mode: unset;
         }
 
         &--checked:after {
@@ -55,5 +58,29 @@
             border-radius: 14px;
             border: solid 2px #007b91;
         }
+
+        &--inner-text {
+            mix-blend-mode: darken;
+            background-color: #f4f4f4;
+
+            &:after {
+                background: none;
+            }
+        }
+    }
+
+    &__wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    &__overlay {
+        position: absolute;
+        top: 10px;
+        left: 4px;
+        font-size: 14px;
+        text-align: center;
+        width: 40px;
+        z-index: -1;
     }
 }

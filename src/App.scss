@@ -37,4 +37,29 @@
         display: flex;
         flex-direction: row;
     }
+
+    &__price {
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+
+    &__price-breakdown {
+        width: 50%;
+        display: block;
+        padding: 15px 30px;
+
+        &:nth-child(odd) {
+            border-left: solid 1px #ccc;
+        }
+    }
+
+    &__price-emphasis {
+        color: #e60000;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
 }
